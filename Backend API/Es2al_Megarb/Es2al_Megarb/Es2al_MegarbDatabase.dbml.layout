@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Es2al_MegarbDatabase">
+  <DataContextMoniker Name="/Es2al_MegarbDatabaseDataContext" />
+  <nestedChildShapes>
+    <classShape Id="78fc4422-cedd-467d-a356-a6b68f57cfe5" absoluteBounds="4.5, 1.375, 2, 1.9631982421875">
+      <DataClassMoniker Name="/Es2al_MegarbDatabaseDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="771496b3-e89d-4875-91c5-509712b554ac" absoluteBounds="4.515, 1.835, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
