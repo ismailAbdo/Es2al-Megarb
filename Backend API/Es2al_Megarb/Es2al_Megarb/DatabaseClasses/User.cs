@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data.Linq;
 using System.Linq;
+using System.Reflection;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 
 namespace Es2al_Megarb.DatabaseClasses
 {
@@ -49,7 +52,7 @@ namespace Es2al_Megarb.DatabaseClasses
             OnCreated();
         }
 
-        [global::System.Data.Linq.Mapping.ColumnAttribute(Storage = "_UserID", DbType = "BigInt NOT NULL", IsPrimaryKey = true)]
+        [global::System.Data.Linq.Mapping.ColumnAttribute(Storage = "_UserID", DbType = "BigInt NOT NULL IDENTITY", IsPrimaryKey = true, IsDbGenerated = true)]
         public long UserID
         {
             get
@@ -205,17 +208,14 @@ namespace Es2al_Megarb.DatabaseClasses
         public int insertUser(User u)
         {
             var userTable = Users_Datacontext.GetTable<User>();
-            if (u.GetType().GetProperty("UserAddress") == null)
-            {
-
-            }
-            userTable.InsertOnSubmit(u);
+            
             try
             {
+                userTable.InsertOnSubmit(u);
                 Users_Datacontext.SubmitChanges();
-                return 1; 
+               return  Users_Datacontext.GetChangeSet().Inserts.Count();
             }
-            catch
+            catch(Exception e)
             {
                 return 0;
             }

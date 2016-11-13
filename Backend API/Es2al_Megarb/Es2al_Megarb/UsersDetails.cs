@@ -16,11 +16,11 @@ namespace Es2al_Megarb
             User u = new User();
             return u.getUser(userID);
         }
-        public int addUser(string us)
+        public int addUser(User us)
         {
-            Object userInput = us;
             User u = new User();
-            return u.insertUser((User)userInput);
+             int recordsCount = u.insertUser(us);
+            return recordsCount;
         }
     }
 }
