@@ -22,7 +22,11 @@ namespace Es2al_Megarb
         IEnumerable<User> getUser(string userID);
 
         [OperationContract]
-        [WebInvoke(Method = "POST", BodyStyle = WebMessageBodyStyle.Bare, ResponseFormat = WebMessageFormat.Json, UriTemplate = "addUSer")]
+        [WebInvoke(Method = "POST", BodyStyle = WebMessageBodyStyle.Bare, ResponseFormat = WebMessageFormat.Json, UriTemplate = "addUser")]
         int addUser(User u);
+
+        [OperationContract]
+        [WebInvoke(Method = "PUT", BodyStyle = WebMessageBodyStyle.Bare, ResponseFormat = WebMessageFormat.Json, UriTemplate = "updateUser/{userID}")]
+        int updateUser(string userID , User u);
     }
 }

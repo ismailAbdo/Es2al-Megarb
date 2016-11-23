@@ -8,7 +8,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web;
-
+using System.Web.Script.Serialization;
 namespace Es2al_Megarb.DatabaseClasses
 {
     [global::System.Data.Linq.Mapping.TableAttribute(Name = "dbo.Users")]

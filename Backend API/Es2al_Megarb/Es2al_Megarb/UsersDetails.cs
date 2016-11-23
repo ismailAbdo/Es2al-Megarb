@@ -22,5 +22,11 @@ namespace Es2al_Megarb
              int recordsCount = u.insertUser(us);
             return recordsCount;
         }
+        public int updateUser(string id , User us)
+        {
+            User u = new User();
+           // int recordsCount = u.updateUser(id,us);
+            return 0;
+        }
     }
 }

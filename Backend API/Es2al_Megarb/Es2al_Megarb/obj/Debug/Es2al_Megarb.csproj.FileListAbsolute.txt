@@ -7,3 +7,13 @@ C:\Users\Ismail Mahmoud\documents\visual studio 2015\Projects\Es2al_Megarb\Es2al
 C:\Users\Ismail Mahmoud\documents\visual studio 2015\Projects\Es2al_Megarb\Es2al_Megarb\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Ismail Mahmoud\documents\visual studio 2015\Projects\Es2al_Megarb\Es2al_Megarb\bin\Debug\EntityFramework.xml
 C:\Users\Ismail Mahmoud\documents\visual studio 2015\Projects\Es2al_Megarb\Es2al_Megarb\bin\Debug\EntityFramework.SqlServer.xml
+K:\Es2al-Megarb\Backend API\Es2al_Megarb\Es2al_Megarb\bin\Debug\Es2al_Megarb.dll.config
+K:\Es2al-Megarb\Backend API\Es2al_Megarb\Es2al_Megarb\bin\Debug\Es2al_Megarb.dll
+K:\Es2al-Megarb\Backend API\Es2al_Megarb\Es2al_Megarb\bin\Debug\Es2al_Megarb.pdb
+K:\Es2al-Megarb\Backend API\Es2al_Megarb\Es2al_Megarb\bin\Debug\EntityFramework.dll
+K:\Es2al-Megarb\Backend API\Es2al_Megarb\Es2al_Megarb\bin\Debug\EntityFramework.SqlServer.dll
+K:\Es2al-Megarb\Backend API\Es2al_Megarb\Es2al_Megarb\bin\Debug\EntityFramework.xml
+K:\Es2al-Megarb\Backend API\Es2al_Megarb\Es2al_Megarb\bin\Debug\EntityFramework.SqlServer.xml
+K:\Es2al-Megarb\Backend API\Es2al_Megarb\Es2al_Megarb\obj\Debug\Es2al_Megarb.csprojResolveAssemblyReference.cache
+K:\Es2al-Megarb\Backend API\Es2al_Megarb\Es2al_Megarb\obj\Debug\Es2al_Megarb.dll
+K:\Es2al-Megarb\Backend API\Es2al_Megarb\Es2al_Megarb\obj\Debug\Es2al_Megarb.pdb
