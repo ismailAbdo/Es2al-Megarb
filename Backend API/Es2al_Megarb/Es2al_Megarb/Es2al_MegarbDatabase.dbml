@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="es2alMegarb" Class="Es2al_MegarbDatabaseDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=LAPTOP-R2557TFK\SQLEXPRESS;Initial Catalog=es2alMegarb;Integrated Security=True" SettingsObjectName="Es2al_Megarb.Properties.Settings" SettingsPropertyName="es2alMegarbConnectionString" Provider="System.Data.SqlClient" />
+  <Connection Mode="AppSettings" ConnectionString="Data Source=KARIM\SQLEXPRESS;Initial Catalog=es2alMegarb;Integrated Security=True" SettingsObjectName="Es2al_Megarb.Properties.Settings" SettingsPropertyName="es2alMegarbConnectionString" Provider="System.Data.SqlClient" />
   <Table Name="dbo.Users" Member="Users">
     <Type Name="User">
       <Column Name="UserID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
@@ -8,6 +8,14 @@
       <Column Name="UserPassword" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
       <Column Name="UserPhone" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
       <Column Name="UserAddress" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Categories" Member="Categories">
+    <Type Name="Category">
+      <Column Name="CatagoryID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatagoryNameAr" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CatagoryNameEn" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CatagoryIcon" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
     </Type>
   </Table>
 </Database>

@@ -8,5 +8,11 @@
         <elementListCompartment Id="771496b3-e89d-4875-91c5-509712b554ac" absoluteBounds="4.515, 1.835, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
+    <classShape Id="df12cb7b-b48c-4a0d-aeec-ce0cdace22d9" absoluteBounds="2, 1.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/Es2al_MegarbDatabaseDataContext/Category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a6dfab53-c0ed-4d29-b998-49a410c9165b" absoluteBounds="2.015, 1.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
   </nestedChildShapes>
 </ordesignerObjectsDiagram>

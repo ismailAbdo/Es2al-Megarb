@@ -33,6 +33,9 @@ namespace Es2al_Megarb
     partial void InsertUser(User instance);
     partial void UpdateUser(User instance);
     partial void DeleteUser(User instance);
+    partial void InsertCategory(Category instance);
+    partial void UpdateCategory(Category instance);
+    partial void DeleteCategory(Category instance);
     #endregion
 		
 		public Es2al_MegarbDatabaseDataContext() : 
@@ -72,6 +75,14 @@ namespace Es2al_Megarb
 				return this.GetTable<User>();
 			}
 		}
+		
+		public System.Data.Linq.Table<Category> Categories
+		{
+			get
+			{
+				return this.GetTable<Category>();
+			}
+		}
 	}
-	
 }
+#pragma warning restore 1591

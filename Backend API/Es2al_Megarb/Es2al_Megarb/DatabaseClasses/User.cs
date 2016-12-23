@@ -212,8 +212,10 @@ namespace Es2al_Megarb.DatabaseClasses
             try
             {
                 userTable.InsertOnSubmit(u);
-                Users_Datacontext.SubmitChanges();
-               return  Users_Datacontext.GetChangeSet().Inserts.Count();
+                
+               int count=  Users_Datacontext.GetChangeSet().Inserts.Count();
+               Users_Datacontext.SubmitChanges();
+                return count;
             }
             catch(Exception e)
             {
